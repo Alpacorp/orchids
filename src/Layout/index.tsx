@@ -5,5 +5,5 @@ interface LayoutProps {
 }
 
 export const Layout: FC<LayoutProps> = ({ children }) => {
-  return <>{children}</>;
+  return <div className="flex flex-col mt-20 items-center">{children}</div>;
 };

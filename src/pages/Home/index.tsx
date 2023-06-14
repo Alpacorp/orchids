@@ -1,7 +1,11 @@
+import { Layout } from "../../Layout";
+import { Card } from "../../components/Card";
+
 export const Home = () => {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <div>
+      Home
+      <Card />
+    </div>
   );
 };
